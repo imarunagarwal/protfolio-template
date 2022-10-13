@@ -1,0 +1,85 @@
+.Projectcard1 {
+  display: flex;
+  padding-bottom: 10rem;
+  position: relative;
+  width: 50rem;
+}
+.Projectcard2 {
+  display: flex;
+  flex-direction: row-reverse;
+  padding-bottom: 10rem;
+  position: relative;
+  width: 50rem;
+}
+.scraperImage {
+  width: 100%;
+  z-index: -1;
+  background-image: url(/src/resources/github.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.FeaturedProjects {
+  margin: 0;
+  font-size: 1.5rem;
+}
+.ProjectName {
+  color: azure;
+  margin: 0;
+  font-size: 1.8rem;
+}
+.ProjectDescBlock1 {
+  width: 25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.ProjectDescBlock2 {
+  width: 25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.ProjectDesc {
+  background-color: #112240;
+  margin-top: 1rem;
+  width: 33rem;
+  height: 7rem;
+  z-index: 1;
+}
+.descproject {
+  color: #a8b2d1;
+  width: 90%;
+  margin: auto;
+  margin-top: 1rem;
+}
+.ProjectImageCover1 {
+  position: absolute;
+  height: 17.2rem;
+  width: 25rem;
+  background-color: aquamarine;
+  opacity: 0.3;
+  z-index: 0;
+  left: 0;
+  top: 0;
+}
+.ProjectImageCover2 {
+  position: absolute;
+  height: 17.3rem;
+  width: 25rem;
+  background-color: aquamarine;
+  opacity: 0.3;
+  z-index: 0;
+  right: 0;
+  top: 0;
+}
+.ProjectImageCover1:hover,
+.ProjectImageCover2:hover {
+  background-color: transparent !important;
+  transition-duration: 0.5s;
+}
+.FrameWorks {
+  color: #a8b2d1;
+  font-weight: 600;
+  word-spacing: 1rem;
+  font-size: 0.8rem;
+}

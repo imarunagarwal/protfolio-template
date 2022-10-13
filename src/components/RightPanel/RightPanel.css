@@ -1,0 +1,28 @@
+.rightCont {
+  height: 25rem;
+  width: 4rem;
+  padding: 0;
+  margin: 0;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  bottom: 0;
+  right: 0;
+  user-select: none;
+}
+.email {
+  text-decoration: none;
+  writing-mode: vertical-rl;
+  color: #cadefc;
+}
+.email:hover {
+  color: aquamarine;
+}
+
+@media screen and (min-width: 900px) {
+  .rightCont {
+    height: 25rem
+  }
+}

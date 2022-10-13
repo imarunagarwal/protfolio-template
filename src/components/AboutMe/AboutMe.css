@@ -1,0 +1,74 @@
+.AboutMeCont {
+  padding: 0rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 45rem;
+  margin-bottom: 0;
+  position: relative;
+}
+.AboutMeHeading {
+  padding: 0.6rem;
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+.underline {
+  border-bottom: 0.2rem solid aquamarine;
+  display: inline-block;
+}
+.sectionHeading {
+  padding: 2rem 4rem;
+}
+.aboutMetext {
+  color: #cadefc;
+  width: 25rem;
+}
+.myImg {
+  width: 15rem;
+  height: 15rem;
+}
+.myImgFilter:hover {
+  background-color: transparent !important;
+  transition-duration: 0.5s;
+}
+.myImgFilter {
+  position: absolute;
+  height: 15rem;
+  width: 15rem;
+  background-color: aquamarine;
+  opacity: 0.3;
+  right: 0;
+}
+
+.myImgBorder {
+  width: 12rem;
+  height: 12rem;
+  border: 0.1rem solid aquamarine;
+  position: absolute;
+  z-index: -1;
+  right: -1rem;
+  bottom: 4rem;
+}
+
+.techStack {
+  margin: 0;
+}
+ul {
+  list-style-type: none;
+}
+.skillUl li::before {
+  content: "";
+  border-color: transparent aquamarine;
+  border-style: solid;
+  border-width: 0.3em 0 0.3em 0.4em;
+  display: block;
+  height: 0;
+  width: 0;
+  left: -1em;
+  top: 0.9em;
+  position: relative;
+}
+.skillUl td {
+  padding: 0.5rem 2rem 0 0;
+  margin: 0;
+}

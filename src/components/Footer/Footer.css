@@ -1,0 +1,27 @@
+.FooterText {
+  text-align: center;
+  cursor: pointer;
+}
+.FooterText a:hover {
+  color: aquamarine;
+}
+.MergeIcon {
+  height: 2rem;
+  width: 3rem;
+  margin: auto;
+}
+.Footer {
+  margin: auto;
+  width: 54rem;
+  margin-top: 0%;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 3rem;
+}
+.noUnderLine {
+  text-decoration: none;
+}
+.bottomlink,
+.bottomlink a {
+  color: #a8b2d1;
+}

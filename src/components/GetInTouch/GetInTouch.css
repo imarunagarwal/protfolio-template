@@ -1,0 +1,17 @@
+.GetInTouch {
+  color: aliceblue;
+  width: fit-content;
+  margin: auto;
+  font-size: 3rem;
+  margin-bottom: 0;
+}
+.GetInTouchContainer {
+  text-align: center;
+  width: 46rem;
+  padding-bottom: 7rem;
+  margin: auto;
+}
+.GetIntouchText {
+  text-align: center;
+  margin: auto;
+}

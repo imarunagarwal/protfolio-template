@@ -1,0 +1,22 @@
+.orgs {
+  background-color: aliceblue;
+  margin-top: 10rem;
+  width: 10rem;
+  height: 20rem;
+}
+.orgCont {
+  padding: 7rem 4rem;
+  width: fit-content;
+}
+.workPeriod {
+  margin: 0;
+}
+.MuiBox-root {
+  padding: 0 !important;
+  padding-left: 1rem !important;
+}
+.WorkHeading {
+  display: inline-block;
+  padding-right: 1rem;
+  margin-bottom: 2rem;
+}

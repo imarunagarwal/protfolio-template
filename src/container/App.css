@@ -1,0 +1,38 @@
+::-webkit-scrollbar {
+  display: none;
+}
+html {
+  scroll-behavior: smooth;
+  animation-duration: 3s;
+  font-size: calc(0.7vh + 0.7vw);
+}
+body {
+  background-color: #0a192f;
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+.App {
+  margin: 0;
+  padding: 0;
+}
+.loader {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+.mainContainer {
+  user-select: none;
+  margin: auto;
+  width: fit-content;
+}
+.aos-init .aos-animate {
+  padding: 0;
+  margin: 0;
+}
+@media screen and (min-width: 900px) {
+  html{
+  font-size: 14px;
+  }
+}
