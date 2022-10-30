@@ -9,7 +9,7 @@ import Org from './../components/Organisations/Org';
 import Projects from './../components/Projects/Projects';
 import GetInTouch from './../components/GetInTouch/GetInTouch';
 import Footer from './../components/Footer/Footer';
-import data from './App_data';
+import data from './../resources/App_data.json';
 import './App.css';
 
 function App() {
@@ -46,7 +46,7 @@ function App() {
               orgs={data.Org.orgs}
             />
             <Projects projects={data.projects} />
-            <GetInTouch email={data.email} />
+            <GetInTouch email={data.email} getInTouchDescription={data.getInTouch.description} />
             <Footer />
           </div>
         </div>

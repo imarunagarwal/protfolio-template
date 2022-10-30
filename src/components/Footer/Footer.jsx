@@ -26,7 +26,11 @@ var Footer = () => {
           &nbsp;Brittany Chiang&nbsp;
         </a>
         and Built by
-        <a className="noUnderLine" href="/">
+        <a
+          className="noUnderLine"
+          href="https://arun-portfolio.netlify.app/"
+          target="_blank"
+        >
           &nbsp;Arun
         </a>
       </p>

@@ -15,7 +15,7 @@ const useStyles = makeStyles({
     textTransform: 'none',
   },
 });
-const GetInTouch = ({ email }) => {
+const GetInTouch = ({ email, getInTouchDescription }) => {
   useEffect(() => {
     AOS.init({
       duration: 2000,
@@ -27,11 +27,7 @@ const GetInTouch = ({ email }) => {
     <div data-aos="fade">
       <div id="GetInTouchMain" className="GetInTouchContainer sectionHeading">
         <h2 className="GetInTouch">Get In Touch</h2>
-        <p className="works GetIntouchText">
-          I'm currently looking for any new opportunities, my inbox is always
-          open. Whether you have a question or just want to say hi, I'll get
-          back to you!
-        </p>
+        <p className="works GetIntouchText">{getInTouchDescription}</p>
         <a className="headerLinks" href={`mailto: ${email}`}>
           <Button className={classes.btn} variant="outlined" size="large">
             Say Hello
