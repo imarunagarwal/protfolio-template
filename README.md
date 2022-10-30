@@ -1,3 +1,46 @@
+![demo](./ReadMe/demo.png)
+
+## 🚨 Forking this repo (please read!)
+
+Many people have contacted me asking me if they can use this code for their own website, and the answer to that question is usually 
+
+I value keeping my work open source, but as you all know, _**plagiarism is bad**_. It's always disheartening whenever I find that someone has copied my site without giving me credit. I spent a non-trivial amount of effort building and designing this iteration of my website, and I am proud of it! All I ask of you all is to not claim this effort as your own.
+
+###
+
+Yes, you can fork this repo. Please give me proper credit by linking back to [[arun-portfolio.netlify.app]](https://arun-portfolio.netlify.app/). Thanks!
+
+### Special Thanks to [Brittany Chiang](https://brittanychiang.com) for the inspiration!!!
+
+## 🛠 Installation & Set Up
+
+1. Install and use the correct version of Node using [NVM](https://github.com/nvm-sh/nvm)
+
+   ```sh
+   nvm install
+   ```
+
+2. Install dependencies
+
+   ```sh
+   npm install
+   ```
+
+3. Start the development server
+
+   ```sh
+   npm start
+   ```
+
+
+# Getting Started with your own portfolio using react
+### Steps to customize
+Go to App_data.json file located in the src > resources and Customize this file according to your need.
+
+
+**Note: It can be further shipped to Netlify/heroku with small configurations and you will have your own portfolio website to boast off! Please write back to me in case of any queries**
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -9,15 +52,10 @@ In the project directory, you can run:
 ### `npm start`
 
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Open [http://localhost:3001](http://localhost:3001) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
