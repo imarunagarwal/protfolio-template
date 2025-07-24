@@ -68,9 +68,19 @@
     "whereIWorkedKey": "Where I've Worked",
     "orgs": [
       {
+        "label": "ServiceNow, Inc",
+        "prefix": "Senior Software Engineer",
+        "time": "Sept-2023 - Present",
+        "list": [
+          "Designed and delivered the Now Assist context menu UI component single handedly, a key platform feature ensuring seamless AI assistance and usability.",
+          "Supported platform-wide adoption by resolving queries, hosting office hours, and mentoring teams.",
+          "Collaborated across teams to integrate the feature into seismic and jelly-based pages, achieving UI16 compatibility and ensuring easy uptake by Chat Reply Recommendation, Email Reply Recommendation, and Knowledge-base Generation and many more teams."
+        ]
+      },
+      {
         "label": "Adidas Pvt. Ltd.",
         "prefix": "Software Developer",
-        "time": "May-2022 - Present",
+        "time": "May-2022 - Aug-2023",
         "list": [
           "Working in a team of aspiring Engineers in the footwear department"
         ]
